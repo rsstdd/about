@@ -2,16 +2,15 @@
 
 // ITCSS: SETTINGS
 // Variables
-// @import 'settings/all';
+@import 'settings/all';
 
 // ITCSS: TOOLS
 // Mixins and Funcitons
-// @import 'tools/all';
+@import 'abstracts/all';
 
 // ITCSS: GENERIC (ELEMENTS/BASE)
 // Resets/Meyers/Normalize/layout
-// @import 'generic/all';
-// @import 'utilities/all';
+@import 'base/all';
 @import 'layout/all';
 
 // ITCSS: COMPONENTS:
