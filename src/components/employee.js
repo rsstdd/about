@@ -17,6 +17,7 @@ const Employee = ({ employee, count }) => (
       <h4 className={`team-member-${count}`}>{employee.name}</h4>
       <p className={`team-member-${count}`}>{employee.role}</p>
     </div>
+    <p className="caption">Connect with {employee.name} on LinkedIn</p>
   </div>
 );
 
