@@ -104,7 +104,7 @@ const Company = () => {
   ];
 
   return (
-    <div className="">
+    <div className="card-container">
       <div className="">
         <p className="">
           Looking to join the team? Check out our{" "}
@@ -113,7 +113,7 @@ const Company = () => {
           </a>
         </p>
       </div>
-      <div className="">
+      <div className="cards">
         {company.map((employee, idx) => (
           <Employee employee={employee} count={idx} key={keyId} />
         ))}
