@@ -14,10 +14,27 @@ const Employee = ({ employee, count }) => (
       />
     </a>
     <div className="cards-copy">
-      <h4 className={`team-member-${count}`}>{employee.name}</h4>
-      <p className={`team-member-${count}`}>{employee.role}</p>
+      <h4 className={`team-member-${count} name-heading`}>
+        <span className="name-heading-span">
+          {employee.firstName} {employee.lastName}
+        </span>
+      </h4>
+      <p className={`team-member-${count} title`}>
+        <span className="name-heading-span span-shadow">{employee.role}</span>
+      </p>
+      {/* Comment this */}
+      <p className={`team-member-${count} title`}>
+        <span className="name-heading-span span-shadow connect-with u-fw-2">
+          <a href="#" className="card-link">Connect with {employee.firstName}</a>
+        </span>
+      </p>
     </div>
-    <p className="caption">Connect with {employee.name} on LinkedIn</p>
+    {/* Comment/Uncomment This */}
+    {/* <p className="name-heading caption card-link">
+      <a href="#" className="card-link">
+        Connect with {employee.firstName}
+      </a>
+    </p> */}
   </div>
 );
 
