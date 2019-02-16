@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import keyId from "../utils/key-id";
+import keyId from "../../utils/key-id";
 
 const Employee = ({ employee, count }) => (
   <div className="cards-wrapper" key={keyId()}>

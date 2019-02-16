@@ -1,6 +1,6 @@
 import React from "react";
-import Employee from "./employee";
-import keyId from "../utils/key-id";
+import Employee from "./employee-1";
+import keyId from "../../utils/key-id";
 
 const Company = () => {
   const rootUrl = ``;
