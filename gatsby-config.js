@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `A few options for "company" section`,
+    title: `A few options`,
     description: `Three options for the "about/company" section of a website`,
     author: `Ross Todd rssmtdd@gmail.com`,
     menuLinks: [
