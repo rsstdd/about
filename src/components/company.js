@@ -3,7 +3,7 @@ import Employee from "./employee";
 import keyId from "../utils/key-id";
 
 const Company = () => {
-  const rootUrl = `https://www.getmigo.com`;
+  const rootUrl = ``;
   const company = [
     {
       img: "http://lorempixel.com/output/people-q-g-250-250-7.jpg",
