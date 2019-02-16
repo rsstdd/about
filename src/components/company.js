@@ -113,10 +113,12 @@ const Company = () => {
           </a>
         </p>
       </div>
-      <div className="cards">
-        {company.map((employee, idx) => (
-          <Employee employee={employee} count={idx} key={keyId} />
-        ))}
+      <div className="inner-container">
+        <div className="cards">
+          {company.map((employee, idx) => (
+            <Employee employee={employee} count={idx} key={keyId} />
+          ))}
+        </div>
       </div>
     </div>
   );
