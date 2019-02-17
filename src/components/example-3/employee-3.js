@@ -15,7 +15,7 @@ const Employee = ({ employee, count }) => (
     </a>
     <div className="cards-copy">
       <h4 className={`team-member-${count} name-heading`}>
-        <span className="name-heading-span">
+        <span className="name-heading-span name-heading-span-3">
           {employee.firstName} {employee.lastName}
         </span>
       </h4>
