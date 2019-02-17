@@ -23,10 +23,8 @@ const Employee = ({ employee, count }) => (
         <span className="name-heading-span span-shadow">{employee.role}</span>
       </p>
       {/* Comment this */}
-      <p className={`team-member-${count} title`}>
-        <span className="name-heading-span span-shadow connect-with u-fw-2">
-          <a href="#" className="card-link">Connect with {employee.firstName}</a>
-        </span>
+      <p className={`connect-with u-fw-2 u-bottom`}>
+        <a href="#" className="card-link">Connect with {employee.firstName}</a>
       </p>
     </div>
     {/* Comment/Uncomment This */}

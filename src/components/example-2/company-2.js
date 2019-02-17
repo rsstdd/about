@@ -120,7 +120,7 @@ const Company = () => {
   ];
 
   return (
-    <div className="card-container">
+    <div className="">
       <div className="">
         <p className="">
           Looking to join the team? Check out our{" "}
@@ -129,12 +129,10 @@ const Company = () => {
           </a>
         </p>
       </div>
-      <div className="inner-container">
-        <div className="cards">
-          {company.map((employee, idx) => (
-            <Employee employee={employee} count={idx} key={keyId} />
-          ))}
-        </div>
+      <div className="employee-wrapper">
+        {company.map((employee, idx) => (
+          <Employee employee={employee} count={idx} key={keyId} />
+        ))}
       </div>
     </div>
   );

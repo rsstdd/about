@@ -15,7 +15,7 @@ const Company = () => {
     {
       img: "http://lorempixel.com/output/people-q-g-250-250-8.jpg",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "Joelottaletters",
       lastName: "Smith",
       role: "Variable Length Engineer"
     },
