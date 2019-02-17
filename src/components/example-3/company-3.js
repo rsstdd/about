@@ -6,112 +6,112 @@ const Company = () => {
   const rootUrl = ``;
   const company = [
     {
-      img: "http://lorempixel.com/output/people-q-g-250-250-7.jpg",
+      imgClass: "cards-image-3--5",
       liUrl: "",
       firstName: "Joe",
       lastName: "Smithsonian",
       role: "Engineer"
     },
     {
-      img: "http://lorempixel.com/output/people-q-g-250-250-8.jpg",
+      imgClass: "cards-image-3--2",
       liUrl: "",
       firstName: "Joe",
       lastName: "Smith",
       role: "Variable Length Engineer"
     },
     {
-      img: "http://lorempixel.com/output/people-q-g-250-250-9.jpg",
+      imgClass: "cards-image-3--3",
       liUrl: "",
       firstName: "Joe",
       lastName: "Smith",
       role: "Engineer"
     },
     {
-      img: "http://lorempixel.com/output/people-q-g-250-250-10.jpg",
+      imgClass: "cards-image-3--4",
       liUrl: "",
       firstName: "Joe",
       lastName: "Smith",
       role: "Engineer"
     },
     {
-      img: "http://lorempixel.com/output/people-q-g-250-250-4.jpg",
+      imgClass: "cards-image-3--1",
       liUrl: "",
       firstName: "Joe",
       lastName: "Smith",
       role: "Engineer"
     },
     {
-      img: "http://lorempixel.com/output/people-q-g-250-250-2.jpg",
+      imgClass: "cards-image-3--1",
       liUrl: "",
       firstName: "Joe",
       lastName: "Smith",
       role: "Engineer"
     },
     {
-      img: "http://lorempixel.com/output/people-q-g-250-250-8.jpg",
+      imgClass: "cards-image-3--1",
       liUrl: "",
       firstName: "Joe",
       lastName: "Smith",
       role: "Engineer"
     },
     {
-      img: "http://lorempixel.com/output/people-q-g-250-250-8.jpg",
+      imgClass: "cards-image-3--1",
       liUrl: "",
       firstName: "Joe",
       lastName: "Smith",
       role: "Engineer"
     },
     {
-      img: "http://lorempixel.com/output/people-q-g-250-250-8.jpg",
+      imgClass: "cards-image-3--1",
       liUrl: "",
       firstName: "Joe",
       lastName: "Smith",
       role: "Engineer"
     },
     {
-      img: "http://lorempixel.com/output/people-q-g-250-250-6.jpg",
+      imgClass: "cards-image-3--1",
       liUrl: "",
       firstName: "Joe",
       lastName: "Smith",
       role: "Engineer"
     },
     {
-      img: "http://lorempixel.com/output/people-q-g-250-250-2.jpg",
+      imgClass: "cards-image-3--1",
       liUrl: "",
       firstName: "Joe",
       lastName: "Smith",
       role: "Engineer"
     },
     {
-      img: "http://lorempixel.com/output/people-q-g-250-250-6.jpg",
+      imgClass: "cards-image-3--1",
       liUrl: "",
       firstName: "Joe",
       lastName: "Smith",
       role: "Engineer"
     },
     {
-      img: "http://lorempixel.com/output/people-q-g-250-250-5.jpg",
+      imgClass: "cards-image-3--1",
       liUrl: "",
       firstName: "Joe",
       lastName: "Smith",
       role: "Engineer"
     },
     {
-      img: "http://lorempixel.com/output/people-q-g-250-250-4.jpg",
+      imgClass: "cards-image-3--1",
       liUrl: "",
       firstName: "Joe",
       lastName: "Smith",
       role: "Engineer"
     },
     {
-      img: "http://lorempixel.com/output/people-q-g-250-250-3.jpg",
+      imgClass: "cards-image-3--1",
       liUrl: "",
       firstName: "Joe",
       lastName: "Smith",
       role: "Engineer"
     },
     {
-      img: "http://lorempixel.com/output/people-q-g-250-250-1.jpg",
+      imgClass: "cards-image-3--1",
       liUrl: "",
       firstName: "Joe",
       lastName: "Smith",
@@ -120,7 +120,7 @@ const Company = () => {
   ];
 
   return (
-    <div className="card-container">
+    <div className="card-container-3">
       <div className="">
         <p className="">
           Looking to join the team? Check out our{" "}
@@ -129,8 +129,8 @@ const Company = () => {
           </a>
         </p>
       </div>
-      <div className="inner-container">
-        <div className="cards">
+      <div className="inner-container-3">
+        <div className="cards-3">
           {company.map((employee, idx) => (
             <Employee employee={employee} count={idx} key={keyId} />
           ))}
