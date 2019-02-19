@@ -20,6 +20,10 @@ module.exports = {
         name: "4",
         link: "/example-4",
       },
+      {
+        name: "5",
+        link: "/example-5",
+      },
     ],
   },
   plugins: [

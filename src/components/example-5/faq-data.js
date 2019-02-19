@@ -1,0 +1,80 @@
+export default [
+  {
+    questionNumber: "1",
+    gtmClassName: "gtm-q1",
+    question: "Who was Ozymandias?",
+    answer: "I met a traveller from an antique land, Who said—“Two vast and trunkless legs of stone Stand in the desert.",
+  },
+  {
+    questionNumber: "2",
+    gtmClassName: "gtm-q2",
+    question: "Who was Ozymandias?",
+    answer: "Near them, on the sand, Half sunk a shattered visage lies, whose frown, And wrinkled lip, and sneer of cold command, Tell that its sculptor well those passions read Which yet survive, stamped on these lifeless things",
+  },
+  {
+    questionNumber: "3",
+    gtmClassName: "gtm-q3",
+    question: "Who was Ozymandias?",
+    answer: "The hand that mocked them, and the heart that fed; And on the pedestal, these words appear: My name is Ozymandias, King of Kings; Look on my Works, ye Mighty, and despair!",
+  },
+  {
+    questionNumber: "4",
+    gtmClassName: "gtm-q4",
+    question: "Who was Ozymandias?",
+    answer: "Nothing beside remains. Round the decay Of that colossal Wreck, boundless and bare The lone and level sands stretch far away.",
+  },
+  {
+    questionNumber: "5",
+    gtmClassName: "gtm-q5",
+    question: "What is Hyperion?",
+    answer: "Deep in the shady sadness of a vale Far sunken from the healthy breath of morn, Far from the fiery noon, and eve's one star, Sat gray-hair'd Saturn, quiet as a stone, Still as the silence round about his lair; Forest on forest hung about his head Like cloud on cloud.",
+  },
+  {
+    questionNumber: "6",
+    gtmClassName: "gtm-q6",
+    question: "What is Hyperion?",
+    answer: "No stir of air was there, Not so much life as on a summer's day Robs not one light seed from the feather'd grass, But where the dead leaf fell, there did it rest. A stream went voiceless by, still deadened more By reason of his fallen divinity Spreading a shade: the Naiad 'mid her reeds Press'd her cold finger closer to her lips",
+  },
+  {
+    questionNumber: "7",
+    gtmClassName: "gtm-q7",
+    question: "What is Hyperion?",
+    answer: "Along the margin-sand large foot-marks went, No further than to where his feet had stray'd, And slept there since. ",
+  },
+  {
+    questionNumber: "8",
+    gtmClassName: "",
+    question: "What is Hyperion?",
+    answer: "Upon the sodden ground His old right hand lay nerveless, listless, dead, Unsceptred; and his realmless eyes were closed; While his bow'd head seem'd list'ning to the Earth, His ancient mother, for some comfort yet. ",
+  },
+  {
+    questionNumber: "9",
+    gtmClassName: "gtm-q9",
+    question: "What is Hyperion?",
+    answer: "It seem'd no force could wake him from his place; But there came one, who with a kindred hand Touch'd his wide shoulders, after bending low With reverence, though to one who knew it not. ",
+  },
+  {
+    questionNumber: "10",
+    gtmClassName: "gtm-q10",
+    question: "What is Hyperion?",
+    answer: "She was a Goddess of the infant world; By her in stature the tall Amazon Had stood a pigmy's height; she would have ta'en Achilles by the hair and bent his neck; Or with a finger stay'd Ixion's wheel. ",
+  },
+  {
+    questionNumber: "11",
+    gtmClassName: "gtm-q11",
+    question: "What is Hyperion?",
+    answer: "Her face was large as that of Memphian sphinx, Pedestal'd haply in a palace court, When sages look'd to Egypt for their lore. ",
+  },
+  {
+    questionNumber: "12",
+    gtmClassName: "gtm-q12",
+    question: "What is Hyperion?",
+    answer: "But oh! how unlike marble was that face: How beautiful, if sorrow had not made Sorrow more beautiful than Beauty's self. ",
+  },
+  {
+    questionNumber: "13",
+    gtmClassName: "gtm-q13",
+    question: "What is Hyperion?",
+    answer: "There was a listening fear in her regard, As if calamity had but begun; As if the vanward clouds of evil days Had spent their malice, and the sullen rear Was with its stored thunder labouring up. ",
+  },
+]

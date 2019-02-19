@@ -1,6 +1,6 @@
-const ERROR = "ERROR";
-const WARN = "WARN";
-const OFF = "OFF";
+const ERROR = "ERROR"
+const WARN = "WARN"
+const OFF = "OFF"
 // eslint in javascript format so that we can have comments
 module.exports = {
   plugins: ["react"],
@@ -8,22 +8,17 @@ module.exports = {
     ecmaVersion: 8,
     sourceType: "module",
     ecmaFeatures: {
-      jsx: true
-    }
+      jsx: true,
+    },
   },
   env: {
     es6: true,
     browser: true,
     node: true,
     mocha: true,
-    jest: true
+    jest: true,
   },
-  extends: [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "prettier",
-    "prettier/react"
-  ],
+  extends: ["eslint:recommended", "plugin:react/recommended", "prettier", "prettier/react"],
   rules: {
     // Possible Errors (overrides from recommended set)
     "no-unexpected-multiline": ERROR,
@@ -35,9 +30,9 @@ module.exports = {
         requireReturnDescription: false,
         requireParamDescription: true,
         prefer: {
-          return: "returns"
-        }
-      }
+          return: "returns",
+        },
+      },
     ],
     // Best Practices
     // Allowed a getter without setter, but all setters require getters
@@ -45,8 +40,8 @@ module.exports = {
       ERROR,
       {
         getWithoutSet: false,
-        setWithoutGet: true
-      }
+        setWithoutGet: true,
+      },
     ],
     "block-scoped-var": WARN,
     "consistent-return": ERROR,
@@ -72,8 +67,8 @@ module.exports = {
       {
         boolean: true,
         number: true,
-        string: true
-      }
+        string: true,
+      },
     ],
     "no-implied-eval": ERROR,
     "no-invalid-this": ERROR,
@@ -103,8 +98,8 @@ module.exports = {
       WARN,
       {
         terms: ["TODO", "FIXME"],
-        location: "start"
-      }
+        location: "start",
+      },
     ],
     "no-with": WARN,
     radix: WARN,
@@ -136,8 +131,8 @@ module.exports = {
       ERROR,
       {
         before: true,
-        after: true
-      }
+        after: true,
+      },
     ],
     "constructor-super": ERROR,
     "generator-star-spacing": [ERROR, "before"],
@@ -159,8 +154,8 @@ module.exports = {
       WARN,
       {
         before: false,
-        after: true
-      }
+        after: true,
+      },
     ],
     "comma-style": [WARN, "last"],
     "computed-property-spacing": [WARN, "never"],
@@ -171,18 +166,18 @@ module.exports = {
       WARN,
       {
         min: 1,
-        max: 40
-      }
+        max: 40,
+      },
     ],
     "jsx-quotes": [WARN, "prefer-double"],
     "lines-around-comment": [
       WARN,
       {
-        beforeBlockComment: true
-      }
+        beforeBlockComment: true,
+      },
     ],
     "max-depth": [WARN, 8],
-    "max-len": [WARN, 400],
+    "max-len": [WARN, 100],
     "max-nested-callbacks": [WARN, 8],
     "max-params": [WARN, 8],
     "new-cap": WARN,
@@ -208,8 +203,8 @@ module.exports = {
       WARN,
       {
         before: false,
-        after: true
-      }
+        after: true,
+      },
     ],
     "sort-vars": OFF,
     "space-before-blocks": [WARN, "always"],
@@ -218,10 +213,10 @@ module.exports = {
     "space-infix-ops": [
       WARN,
       {
-        int32Hint: true
-      }
+        int32Hint: true,
+      },
     ],
     "space-unary-ops": ERROR,
-    "spaced-comment": [WARN, "always"]
-  }
-};
+    "spaced-comment": [WARN, "always"],
+  },
+}
