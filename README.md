@@ -21,6 +21,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Other Ideas worth considering:
 
+### About
+
 - [Space10](https://space10.io/team/)
 - [Woodwork](https://woodwork.nl/about)
 - [JosephMark](https://www.josephmark.com.au/about/)

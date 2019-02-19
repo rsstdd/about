@@ -1,0 +1,29 @@
+.site-wrapper-constrained {
+  max-width: 690px;
+}
+
+// H3
+.faq-question {
+  font-weight: 700;
+  line-height: 1.6;
+  margin-top: 1em;
+}
+
+.faq-question::after {
+  content: '+';
+  padding-left: 5px;
+}
+
+// answer div
+.faq-answer {
+  line-height: 1.6;
+
+}
+
+.accordian-content {
+  padding: .5em 0 1em;
+}
+
+.accordian-content p {
+  margin-bottom: 0;
+}
