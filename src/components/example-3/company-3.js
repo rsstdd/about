@@ -8,112 +8,112 @@ const Company = () => {
     {
       imgClass: "cards-image-3--5",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smithsonian",
       role: "Engineer"
     },
     {
       imgClass: "cards-image-3--2",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Variable Length Engineer"
     },
     {
       imgClass: "cards-image-3--3",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Engineer"
     },
     {
       imgClass: "cards-image-3--4",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Engineer"
     },
     {
       imgClass: "cards-image-3--1",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Engineer"
     },
     {
       imgClass: "cards-image-3--1",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Engineer"
     },
     {
       imgClass: "cards-image-3--1",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Engineer"
     },
     {
       imgClass: "cards-image-3--1",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Engineer"
     },
     {
       imgClass: "cards-image-3--1",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Engineer"
     },
     {
       imgClass: "cards-image-3--1",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Engineer"
     },
     {
       imgClass: "cards-image-3--1",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Engineer"
     },
     {
       imgClass: "cards-image-3--1",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Engineer"
     },
     {
       imgClass: "cards-image-3--1",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Engineer"
     },
     {
       imgClass: "cards-image-3--1",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Engineer"
     },
     {
       imgClass: "cards-image-3--1",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Engineer"
     },
     {
       imgClass: "cards-image-3--1",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Engineer"
     }

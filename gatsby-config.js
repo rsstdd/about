@@ -5,18 +5,22 @@ module.exports = {
     author: `Ross Todd rssmtdd@gmail.com`,
     menuLinks: [
       {
-        name: "home",
-        link: "/"
+        name: "1",
+        link: "/",
       },
       {
-        name: "exaple-2",
-        link: "/example-2"
+        name: "2",
+        link: "/example-2",
       },
       {
-        name: "exaple-3",
-        link: "/example-3"
-      }
-    ]
+        name: "3",
+        link: "/example-3",
+      },
+      {
+        name: "4",
+        link: "/example-4",
+      },
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,14 +28,14 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`
-      }
+        path: `${__dirname}/src/images`,
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-sass`,
-      precision: 8 // For Bootstrap
-    }
-  ]
-};
+      precision: 8, // For Bootstrap
+    },
+  ],
+}

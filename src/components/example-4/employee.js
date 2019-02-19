@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 import keyId from "../../utils/key-id"
 
 const Employee = ({ employee, count }) => (
-  <div className="cards-wrapper-3" key={keyId()}>
+  <div className="cards-wrapper-3 box-shadow-1" key={keyId()}>
     <a href={employee.url} target="_blank" rel="noopener noreferrer">
       <div alt="" className={`cards-image-3 ${employee.className} team-member-${count}`}>
         &nbsp;

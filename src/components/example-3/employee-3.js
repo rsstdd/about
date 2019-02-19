@@ -1,15 +1,12 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from "react"
+import PropTypes from "prop-types"
 
-import keyId from "../../utils/key-id";
+import keyId from "../../utils/key-id"
 
 const Employee = ({ employee, count }) => (
-  <div className="cards-wrapper-3" key={keyId()}>
+  <div className="cards-wrapper-3 box-shadow-1" key={keyId()}>
     <a href={employee.url} target="_blank" rel="noopener noreferrer">
-      <div
-        alt=""
-        className={`cards-image-3 ${employee.imgClass} team-member-${count}`}
-      >
+      <div alt="" className={`cards-image-3 ${employee.imgClass} team-member-${count}`}>
         &nbsp;
       </div>
     </a>
@@ -25,7 +22,9 @@ const Employee = ({ employee, count }) => (
       {/* Comment this */}
       <p className={`team-member-${count} title`}>
         <span className="name-heading-span span-shadow connect-with u-fw-2">
-          <a href="#" className="card-link">Connect with {employee.firstName}</a>
+          <a href="#" className="card-link">
+            Connect with {employee.firstName}
+          </a>
         </span>
       </p>
     </div>
@@ -36,11 +35,11 @@ const Employee = ({ employee, count }) => (
       </a>
     </p> */}
   </div>
-);
+)
 
 Employee.propTypes = {
   employee: PropTypes.object,
-  count: PropTypes.number
-};
+  count: PropTypes.number,
+}
 
-export default Employee;
+export default Employee

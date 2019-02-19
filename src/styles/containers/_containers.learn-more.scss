@@ -59,9 +59,8 @@
 
 .caption {
   backface-visibility: hidden;
-  border: 1px solid $m-purple;
   bottom: 0;
-  color: $m-orange;
+  color: #333;
   height: 95%;
   left: 1%;
   margin: 0 auto;
@@ -73,8 +72,6 @@
 }
 
 .caption:hover {
-  border: 1px solid $m-purple;
-  color: $m-orange;
   filter: blur(0) brightness(100%);
   opacity: 1;
   transform: translate(1%, 40%);
@@ -93,7 +90,6 @@
 
 .card-link:hover {
   background-position: 100%;
-  // color: $m-orange;
   color: $color-white;
 }
 

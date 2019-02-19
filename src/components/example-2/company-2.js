@@ -8,112 +8,112 @@ const Company = () => {
     {
       img: "http://lorempixel.com/output/people-q-g-250-250-7.jpg",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smithsonian",
       role: "Engineer"
     },
     {
       img: "http://lorempixel.com/output/people-q-g-250-250-8.jpg",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Variable Length Engineer"
     },
     {
       img: "http://lorempixel.com/output/people-q-g-250-250-9.jpg",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Engineer"
     },
     {
       img: "http://lorempixel.com/output/people-q-g-250-250-10.jpg",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Engineer"
     },
     {
       img: "http://lorempixel.com/output/people-q-g-250-250-4.jpg",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Engineer"
     },
     {
       img: "http://lorempixel.com/output/people-q-g-250-250-2.jpg",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Engineer"
     },
     {
       img: "http://lorempixel.com/output/people-q-g-250-250-8.jpg",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Engineer"
     },
     {
       img: "http://lorempixel.com/output/people-q-g-250-250-8.jpg",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Engineer"
     },
     {
       img: "http://lorempixel.com/output/people-q-g-250-250-8.jpg",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Engineer"
     },
     {
       img: "http://lorempixel.com/output/people-q-g-250-250-6.jpg",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Engineer"
     },
     {
       img: "http://lorempixel.com/output/people-q-g-250-250-2.jpg",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Engineer"
     },
     {
       img: "http://lorempixel.com/output/people-q-g-250-250-6.jpg",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Engineer"
     },
     {
       img: "http://lorempixel.com/output/people-q-g-250-250-5.jpg",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Engineer"
     },
     {
       img: "http://lorempixel.com/output/people-q-g-250-250-4.jpg",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Engineer"
     },
     {
       img: "http://lorempixel.com/output/people-q-g-250-250-3.jpg",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Engineer"
     },
     {
       img: "http://lorempixel.com/output/people-q-g-250-250-1.jpg",
       liUrl: "",
-      firstName: "Joe",
+      firstName: "John",
       lastName: "Smith",
       role: "Engineer"
     }
